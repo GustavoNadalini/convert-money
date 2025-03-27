@@ -46,6 +46,10 @@ select, input {
     cursor: pointer;
 }
 
+input {
+    cursor: auto;
+}
+
 button {
     width: 100%;
     background: #772fd3;
