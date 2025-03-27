@@ -47,7 +47,7 @@ function convertValues() {
     currencyValueToConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
         style: "currency",
         currency: "BRL"
-    }).format(inputCurrencyValue(1000))
+    }).format(inputCurrencyValue)
 
 }
 
